@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodBox</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="topo"> 
+        <h1>FoodBox</h1>
+        <h2>Monte seu pedido em 15 minutos!</h2>
+    </div>
+    <h3>Escolha o seu Burger</h3>
+    <div id="bacon" class="produto" onclick="escolherBacon()">
+        <img src="https://vejario.abril.com.br/wp-content/uploads/2021/02/Burgers-Rio-_-Cheesebacon-foto-Rodrigo-Azevedo-_-2.jpg"
+            alt="baconimg">
+        <h4>Bacon Burger</h4>
+        <p>Acompanha batata </p>
+        <p><strong>R$ 22,90</strong></p>
+    </div>
+    <div id="classico" class="produto" onclick="escolherClassico()">
+        <img src="https://media.revide.com.br/upload/noticias/2019/08/19/16/56/ticos_burguer.jpeg" alt="pri">
+        <h4>Standart Burger</h4>
+        <p>Acompanha Batata</p>
+        <p><strong>R$ 24,90</strong></p>
+    </div>
+    <div id="paradise" class="produto" onclick="escolherParadise()">
+        <img src="https://files.menudino.com/cardapios/16689/capa.jpg" alt="">
+        <h4>Paradise Burger</h4>
+        <p>Acompanha Batata</p>
+        <p><strong>R$ 32,90</strong></p>
+    </div>
+
+    <br>
+    <h3  >Agora a sua Bebida</h3>
+    
+    <div id="coca" class="produto" onclick="escolherCoca()">
+        <img src="https://media.istockphoto.com/photos/can-of-cocacola-on-ice-picture-id487787108?k=20&m=487787108&s=170667a&w=0&h=F-6buArqUaMdW0bglRX-fAtflpGQFFXot9bo8T3YDKY=" alt="">
+        <h4>Refrigerante</h4>
+        <p>Coca-Cola</p>
+        <p><strong>R$ 6,00</strong></p>
+    </div>
+    <div id="suco" class="produto" onclick="escolherSuco()">
+        <img src="https://receitas2.com/wp-content/uploads/2021/06/Suco-berinjela-com-laranja-para-baixar-o-colesterol.jpg"
+            alt="">
+        <h4>Suco Natural</h4>
+        <p>Laranja</p>
+        <p><strong>R$ 7,90</strong></p>
+    </div>
+
+    <br>
+    <h3>E claro... a Sobremesa!</h3>
+    
+    <div id="gateau" class="produto" onclick="escolherGateau()">
+        <img src="https://www.devorehoneymoon.com.br/image/cache/catalog/petit_gateau-1000x1000.jpg" alt="">
+        <h4>Petit Gateau</h4>
+        <p><strong>R$ 12,00</strong></p>
+        <br>
+        <br>
+    </div>
+    <div id="pudim" class="produto" onclick="escolherPudim()">
+        <img src="https://xtudoreceitas.com/wp-content/uploads/Pudim-de-Caneca-no-Microondas.jpg" alt="">
+        <h4>Pudim</h4>
+        <p><strong>R$ 6,00</strong></p>
+        <br>
+    </div>
+    <div>
+        <input type="button" value="Finalizar o Pedido" id="btFinalizar" onclick="finalizarPedido()">
+    </div>
+
+
+
+
+<script src="index.js"></script>
+</body>
+
+</html>
