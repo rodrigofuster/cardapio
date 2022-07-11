@@ -5,7 +5,7 @@
 ### :computer: Aplicação que simula um cradápio de lancheria com a opção de enviar o pedido por mensagem(whatsapp). Utilizado HTML, CSS e JavaScript.
 <hr>
 
-### Ver Projeto: :point_right: [Galeria](https://rodrigofuster.github.io/galeria-imagens/)
+### Ver Projeto: :point_right: [Cardápio](https://rodrigofuster.github.io/cardapio/)
 
 
  
